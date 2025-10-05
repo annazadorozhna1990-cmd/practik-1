@@ -1,0 +1,142 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #22343d;
+  background-color: #ffffff;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  display: block;
+}
+.container {
+  width: 1150;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/* SECTION HIRO */
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero {
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+.content-wrapper {
+  display: block;
+}
+.hero-titel {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+  max-width: 452px;
+}
+.hero-paragraf {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  margin-bottom: 45px;
+  max-width: 425px;
+  margin-right: 35px;
+}
+
+.hero-list {
+  display: flex;
+  gap: 30px;
+}
+.hiro-item {
+}
+.hero-start-btn {
+  border-radius: 4px;
+  width: 178px;
+  height: 53px;
+  background-color: #02897a;
+  border: none;
+  max-width: 178px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+.hero-vidio-btn {
+  width: 178px;
+  height: 53px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  border: none;
+  background-color: transparent;
+}
+
+.about {
+  margin: 0 auto;
+  margin-top: 0;
+  max-width: 520px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about-list {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 30px;
+  flex-basis: calc((100% - 90px) / 4);
+}
+.about-item {
+}
+.about-img {
+  margin-bottom: 18.1px;
+}
+.about-title {
+  font-weight: 600;
+  font-size: 22px;
+}
+.about-paragraf {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.button-sing {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  width: 175px;
+  height: 53px;
+  background-color: #02897a;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 175px;
+  height: 53px;
+}
